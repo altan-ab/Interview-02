@@ -1,0 +1,36 @@
+.app-container {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input-container {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.input-text {
+  border: 2px rgb(154, 88, 166) solid;
+}
+
+.robot-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.robot-item img {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.robot-item img:hover {
+  transform: scale(1.1);
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
